@@ -12,6 +12,7 @@ const StyledAppBar = styled(AppBar)(({theme}) => ({
     boxShadow: 'none',
     zIndex: theme.zIndex.drawer + 1,
     backgroundColor: theme.palette.background.default,
+    width: '100%'
 }));
 
 const StyledToolbar = styled(Toolbar)(({theme}) => ({
