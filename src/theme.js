@@ -3,23 +3,27 @@ import { colors } from '@mui/material';
 
 // Create a theme instance.
 const theme = createTheme({
-  palette: {
-      background: {
-        default: colors.common.white,
-        dark: '#eeeeee',
-        paper: colors.common.white,
+    palette: {
+        type: 'light',
+        action: {
+          active: colors.blueGrey[600],
+        },
+        background: {
+          default: colors.common.white,
+          dark: '#f4f6f8',
+          paper: colors.common.white,
+        },
+        primary: {
+          main: '#f44336',
+        },
+        secondary: {
+          main: '#3EA6FF',
+        },
+        text: {
+          primary: colors.blueGrey[900],
+          secondary: colors.blueGrey[600],
+        },
     },
-    primary: {
-      main: '#FF0000',
-    },
-    secondary: {
-      main: '#19857b',
-    },
-    text: {
-        primary: colors.blueGrey[900],
-        secondary: colors.blueGrey[600],
-    },
-  },
 });
 
 export default theme;
