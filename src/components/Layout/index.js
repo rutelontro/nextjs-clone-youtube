@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { styled } from '@mui/material/styles';
-import TopNavbar from './TopNavbar';
-import Sidebar from './Sidebar';
+import TopNavbar from 'src/components/Layout/TopNavbar';
+import Sidebar from 'src/components/Layout/Sidebar';
 
 const MainDiv = styled('div')(({theme}) => ({
     backgroundColor: theme.palette.background.dark,

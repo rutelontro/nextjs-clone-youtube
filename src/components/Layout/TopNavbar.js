@@ -71,7 +71,7 @@ export default function TopNavbar() {
                             <MoreVertIcon />
                         </IconButton>
                         <Button variant="outlined" color='secondary' startIcon={<AccountCircleIcon />}>
-                            Fazer login
+                            Sign in
                         </Button>
                     </Box>
                 </StyledToolbar>
